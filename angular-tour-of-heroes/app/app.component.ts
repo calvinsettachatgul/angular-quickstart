@@ -27,7 +27,6 @@ const HEROES: Hero[] = [
 		</li>
 	</ul>
     `,
-
   styles: [`
   .selected {
     background-color: #CFD8DC !important;
@@ -83,5 +82,6 @@ const HEROES: Hero[] = [
 export class AppComponent {
   title = 'Tour of Heroes';
   heroes = HEROES;
+  hero = {selectedHero: Hero};
 }
 

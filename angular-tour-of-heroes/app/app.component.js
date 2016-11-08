@@ -31,6 +31,7 @@ var AppComponent = (function () {
     function AppComponent() {
         this.title = 'Tour of Heroes';
         this.heroes = HEROES;
+        this.hero = { selectedHero: Hero };
     }
     AppComponent = __decorate([
         core_1.Component({
