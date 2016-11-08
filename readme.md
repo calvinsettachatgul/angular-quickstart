@@ -1,4 +1,4 @@
-second attempt of angular-quickstart app
+angular tour of heroes  app
 
 from:
-https://angular.io/docs/ts/latest/quickstart.html
+https://angular.io/docs/ts/latest/tutorial/toh-pt2.html
