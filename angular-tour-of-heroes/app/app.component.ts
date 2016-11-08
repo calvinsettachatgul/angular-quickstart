@@ -3,18 +3,6 @@ export class Hero {
   id: number;
   name: string;
 }
-@Component({
-  selector: 'my-app',
-  template: `
-    <h2>My Heroes</h2>
-	<ul class="heroes">
-		<li>
-			<!-- each hero goes here -->
-		</li>
-	</ul>
-	
-    `
-})
 
 const HEROES: Hero[] = [
 	{ id: 11, name: 'Mr. Nice' },
@@ -27,15 +15,22 @@ const HEROES: Hero[] = [
 	{ id: 18, name: 'Dr IQ' },
 	{ id: 19, name: 'Magma' },
 	{ id: 20, name: 'Tornado' },
-]
+];
 
-heroes = HEROES;
+@Component({
+  selector: 'my-app',
+  template: `
+    <h2>My Heroes</h2>
+	<ul class="heroes">
+		<li *ngFor="let hero of heroes">
+			<span class="badge">{{hero.id}} </span>{{hero.name}}
+		</li>
+	</ul>
+    `
+})
 
 export class AppComponent {
   title = 'Tour of Heroes';
-  hero: Hero = {
-    id: 1,
-    name: 'Windstorm'
-  };
+  heroes = HEROES;
 }
 
