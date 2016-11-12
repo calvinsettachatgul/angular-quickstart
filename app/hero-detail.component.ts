@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-	selector: 'my-hero-detail';
+	selector: 'my-hero-detail',
 })
-export calss HeroDetailComponent{
+export class HeroDetailComponent{
 }
