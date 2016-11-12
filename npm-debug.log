@@ -9,8 +9,8 @@
 6 silly lifecycle angular-tour-of-heroes@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle angular-tour-of-heroes@1.0.0~start: angular-tour-of-heroes@1.0.0
 8 verbose lifecycle angular-tour-of-heroes@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle angular-tour-of-heroes@1.0.0~start: PATH: /Users/calvins/.node/lib/node_modules/npm/bin/node-gyp-bin:/Users/calvins/Google Drive/projects/tour_of_heroes/angular-tour-of-heroes/node_modules/.bin:/Users/calvins/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/calvins/google-cloud-sdk/bin:/Users/calvins/.node/bin/:/Users/calvins/.node/lib/node_modules/learnyounode/bin/:/Users/calvins/.node/lib/node_modules/javascripting/bin/:/usr/local/heroku/bin:/usr/local/bin:/usr/local/sbin:~/bin:/Users/calvins/.rbenv/bin:/Users/calvins/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/calvins/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/calvins/google-cloud-sdk/bin:/Users/calvins/.node/bin/:/Users/calvins/.node/lib/node_modules/learnyounode/bin/:/Users/calvins/.node/lib/node_modules/javascripting/bin/:/usr/local/heroku/bin:/usr/local/sbin:~/bin:/Users/calvins/.rbenv/bin:/Users/calvins/.rbenv/shims:./:./:
-10 verbose lifecycle angular-tour-of-heroes@1.0.0~start: CWD: /Users/calvins/Google Drive/projects/tour_of_heroes/angular-tour-of-heroes
+9 verbose lifecycle angular-tour-of-heroes@1.0.0~start: PATH: /Users/calvins/.node/lib/node_modules/npm/bin/node-gyp-bin:/Users/calvins/Google Drive/projects/angular-tour-of-heroes/node_modules/.bin:/Users/calvins/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/calvins/google-cloud-sdk/bin:/Users/calvins/.node/bin/:/Users/calvins/.node/lib/node_modules/learnyounode/bin/:/Users/calvins/.node/lib/node_modules/javascripting/bin/:/usr/local/heroku/bin:/usr/local/bin:/usr/local/sbin:~/bin:/Users/calvins/.rbenv/bin:/Users/calvins/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/calvins/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/calvins/google-cloud-sdk/bin:/Users/calvins/.node/bin/:/Users/calvins/.node/lib/node_modules/learnyounode/bin/:/Users/calvins/.node/lib/node_modules/javascripting/bin/:/usr/local/heroku/bin:/usr/local/sbin:~/bin:/Users/calvins/.rbenv/bin:/Users/calvins/.rbenv/shims:./:./:
+10 verbose lifecycle angular-tour-of-heroes@1.0.0~start: CWD: /Users/calvins/Google Drive/projects/angular-tour-of-heroes
 11 silly lifecycle angular-tour-of-heroes@1.0.0~start: Args: [ '-c', 'tsc && concurrently "tsc -w" "lite-server" ' ]
 12 silly lifecycle angular-tour-of-heroes@1.0.0~start: Returned: code: 2  signal: null
 13 info lifecycle angular-tour-of-heroes@1.0.0~start: Failed to exec start script
@@ -25,7 +25,7 @@
 14 verbose stack     at maybeClose (internal/child_process.js:850:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
 15 verbose pkgid angular-tour-of-heroes@1.0.0
-16 verbose cwd /Users/calvins/Google Drive/projects/tour_of_heroes/angular-tour-of-heroes
+16 verbose cwd /Users/calvins/Google Drive/projects/angular-tour-of-heroes
 17 error Darwin 16.1.0
 18 error argv "/usr/local/bin/node" "/Users/calvins/.node/bin/npm" "start"
 19 error node v5.8.0
