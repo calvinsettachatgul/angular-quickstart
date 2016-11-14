@@ -44,7 +44,8 @@ var AppModule = (function () {
             declarations: [
                 app_component_1.AppComponent,
                 hero_detail_component_1.HeroDetailComponent,
-                heroes_component_1.HeroesComponent
+                heroes_component_1.HeroesComponent,
+                dashboard_component_1.DashboardComponent
             ],
             providers: [
                 hero_service_1.HeroService
