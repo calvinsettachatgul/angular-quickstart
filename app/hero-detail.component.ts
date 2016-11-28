@@ -9,7 +9,8 @@ import { Hero } from './hero';
 	selector: 'my-hero-detail',
 	templateURL: 'hero-detail.component.html'
 })
-export class HeroDetailComponent{
+export class HeroDetailComponent implements OnInit {
+        @Input() hero: Hero;
 	constructor (
 		private heroService: HeroService,
 		private route: ActivatedRoute,
